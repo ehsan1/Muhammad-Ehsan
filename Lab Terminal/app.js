@@ -42,7 +42,7 @@ app.use(function (err, req, res, next) {
 });
 
 mongoose
-  .connect("mongodb+srv://newAdmin:ArcyqIZ4CERiYoTW@cluster0.1drme.mongodb.net/productscrud?retryWrites=true&w=majority", {
+  .connect("mongodb+srv://ehsan:iUyEL1WoSxQVu47R@cluster0.pwwzq.mongodb.net/productscrud?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
