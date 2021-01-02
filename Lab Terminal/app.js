@@ -45,7 +45,7 @@ mongoose
   .connect("mongodb+srv://ehsan:iUyEL1WoSxQVu47R@cluster0.pwwzq.mongodb.net/productscrud?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
-  })
+  }) 
   .then(() => console.log("Connected to Mongo...."))
   .catch((error) => console.log(error.message));
 module.exports = app;
